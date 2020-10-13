@@ -38,9 +38,16 @@ class Greeting
         // System.out.println(var02);
 
         // 文字のデータ型
-        char var01 = 'c';
-        String var02 = "Hello, Java!!";
-        System.out.println(var01);
-        System.out.println(var02);
+        // char var01 = 'c';
+        // String var02 = "Hello, Java!!";
+        // System.out.println(var01);
+        // System.out.println(var02);
+
+        // boolean
+        int var_a = 10;
+        int var_b = 1;
+        boolean var_bool;
+        var_bool = (var_b > var_a);
+        System.out.println(var_bool);
     }
 }
