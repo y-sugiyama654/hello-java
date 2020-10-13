@@ -32,8 +32,14 @@ class Greeting
         // System.out.println(var04);
 
         // 小数のデータ型
-        double var01 = 1.23456789;
-        float var02 = 1.234F;
+        // double var01 = 1.23456789;
+        // float var02 = 1.234F;
+        // System.out.println(var01);
+        // System.out.println(var02);
+
+        // 文字のデータ型
+        char var01 = 'c';
+        String var02 = "Hello, Java!!";
         System.out.println(var01);
         System.out.println(var02);
     }
