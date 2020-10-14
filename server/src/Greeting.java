@@ -44,10 +44,22 @@ class Greeting
         // System.out.println(var02);
 
         // boolean
-        int var_a = 10;
-        int var_b = 1;
-        boolean var_bool;
-        var_bool = (var_b > var_a);
-        System.out.println(var_bool);
+        // int var_a = 10;
+        // int var_b = 1;
+        // boolean var_bool;
+        // var_bool = (var_b > var_a);
+        // System.out.println(var_bool);
+
+        // 配列の作り方
+        String[] arr;
+        arr = new String[3];
+
+        arr[0] = "sato";
+        arr[1] = "suziki";
+        arr[2] = "takahashi";
+
+        System.out.println(arr[0]);
+        System.out.println(arr[1]);
+        System.out.println(arr[2]);
     }
 }
