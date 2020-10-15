@@ -63,7 +63,16 @@ class Greeting
         // System.out.println(arr[2]);
 
         // 配列の作り方2
+        // String[] arr = {"sato", "suzuki", "takahashi"};
+
+        // System.out.println(arr[0]);
+        // System.out.println(arr[1]);
+        // System.out.println(arr[2]);
+
+        // 配列内の値の置換
         String[] arr = {"sato", "suzuki", "takahashi"};
+
+        arr[1] = "tanaka";
 
         System.out.println(arr[0]);
         System.out.println(arr[1]);
