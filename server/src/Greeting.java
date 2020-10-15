@@ -51,12 +51,19 @@ class Greeting
         // System.out.println(var_bool);
 
         // 配列の作り方
-        String[] arr;
-        arr = new String[3];
+        // String[] arr;
+        // arr = new String[3];
 
-        arr[0] = "sato";
-        arr[1] = "suziki";
-        arr[2] = "takahashi";
+        // arr[0] = "sato";
+        // arr[1] = "suziki";
+        // arr[2] = "takahashi";
+
+        // System.out.println(arr[0]);
+        // System.out.println(arr[1]);
+        // System.out.println(arr[2]);
+
+        // 配列の作り方2
+        String[] arr = {"sato", "suzuki", "takahashi"};
 
         System.out.println(arr[0]);
         System.out.println(arr[1]);
