@@ -93,11 +93,20 @@ class Greeting
         // System.out.println(arr[1][1]);
 
         // 二次元配列2
-        String[][] arr = {{"sato", "suzuki"}, {"takahashi", "tanaka"}};
+        // String[][] arr = {{"sato", "suzuki"}, {"takahashi", "tanaka"}};
 
-        System.out.println(arr[0][0]);
-        System.out.println(arr[0][1]);
-        System.out.println(arr[1][0]);
-        System.out.println(arr[1][1]);
+        // System.out.println(arr[0][0]);
+        // System.out.println(arr[0][1]);
+        // System.out.println(arr[1][0]);
+        // System.out.println(arr[1][1]);
+
+        // 算術演算子
+        int x = 10;
+        int y = 2;
+        System.out.println(x+y);
+        System.out.println(x-y);
+        System.out.println(x*y);
+        System.out.println(x/y);
+        System.out.println(x%y);
     }
 }
