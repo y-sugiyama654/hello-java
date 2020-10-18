@@ -116,10 +116,17 @@ class Greeting
         // System.out.println(x > y);
 
         // 関係演算子（等価）
-        int x = 10;
-        int y = 2;
+        // int x = 10;
+        // int y = 2;
 
-        System.out.println(x == y);
-        System.out.println(x != y);
+        // System.out.println(x == y);
+        // System.out.println(x != y);
+
+        // 論理演算子
+        int x = 8;
+        int y = 3;
+
+        System.out.println(x >= 5 && x <= 10);
+        System.out.println(y >= 5 && y <= 10);
     }
 }
