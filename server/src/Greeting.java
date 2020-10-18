@@ -101,12 +101,18 @@ class Greeting
         // System.out.println(arr[1][1]);
 
         // 算術演算子
+        // int x = 10;
+        // int y = 2;
+        // System.out.println(x+y);
+        // System.out.println(x-y);
+        // System.out.println(x*y);
+        // System.out.println(x/y);
+        // System.out.println(x%y);
+
+        // 関係演算子
         int x = 10;
         int y = 2;
-        System.out.println(x+y);
-        System.out.println(x-y);
-        System.out.println(x*y);
-        System.out.println(x/y);
-        System.out.println(x%y);
+
+        System.out.println(x > y);
     }
 }
