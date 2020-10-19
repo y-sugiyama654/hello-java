@@ -154,13 +154,22 @@ class Greeting
         // System.out.println(y);
 
         // 条件分岐
-        int age = 22;
+        // int age = 22;
+
+        // if (age >= 20) {
+        //    System.out.println("adult");
+        // }
+
+        // if (age <= 20) {
+        //    System.out.println("child");
+        // }
+
+        // 条件分岐(if-else)
+        int age = 18;
 
         if (age >= 20) {
             System.out.println("adult");
-        }
-
-        if (age <= 20) {
+        } else {
             System.out.println("child");
         }
     }
