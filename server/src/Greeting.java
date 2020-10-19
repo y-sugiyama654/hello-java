@@ -165,12 +165,24 @@ class Greeting
         // }
 
         // 条件分岐(if-else)
-        int age = 18;
+        // int age = 18;
+
+        // if (age >= 20) {
+        //     System.out.println("adult");
+        // } else {
+        //     System.out.println("child");
+        // }
+
+        // 条件分岐(if-elseif)
+        int age = 0;
 
         if (age >= 20) {
             System.out.println("adult");
+        } else if (age == 0) {
+            System.out.println("baby");
         } else {
             System.out.println("child");
         }
+
     }
 }
