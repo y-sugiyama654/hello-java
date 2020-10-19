@@ -145,12 +145,23 @@ class Greeting
         // System.out.println(z += y);
 
         // インクリメントとデクリメント
-        int x = 8;
-        int y = 8;
-        x++;
-        y--;
+        // int x = 8;
+        // int y = 8;
+        // x++;
+        // y--;
 
-        System.out.println(x);
-        System.out.println(y);
+        // System.out.println(x);
+        // System.out.println(y);
+
+        // 条件分岐
+        int age = 22;
+
+        if (age >= 20) {
+            System.out.println("adult");
+        }
+
+        if (age <= 20) {
+            System.out.println("child");
+        }
     }
 }
