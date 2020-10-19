@@ -130,10 +130,18 @@ class Greeting
         // System.out.println(y >= 5 && y <= 10);
 
         // 論理演算子2
-        int x = 8;
-        int y = 3;
+        // int x = 8;
+        // int y = 3;
 
-        System.out.println(x >= 5 || x <= 10);
-        System.out.println(y >= 5 || y <= 10);
+        // System.out.println(x >= 5 || x <= 10);
+        // System.out.println(y >= 5 || y <= 10);
+
+        // 代入演算子
+        int x = 8;
+        int y = 12;
+        int z = 20;
+
+        System.out.println(x += 10);
+        System.out.println(z += y);
     }
 }
