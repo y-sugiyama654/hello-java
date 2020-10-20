@@ -190,8 +190,14 @@ class Greeting
         // }
 
         // for文(break)
+        // for (int i = 0; i <= 4; i++) {
+        //     if (i == 3) { break; }
+        //     System.out.println(i);
+        // }
+
+        // for文(continue)
         for (int i = 0; i <= 4; i++) {
-            if (i == 3) { break; }
+            if (i == 3) { continue; }
             System.out.println(i);
         }
     }
