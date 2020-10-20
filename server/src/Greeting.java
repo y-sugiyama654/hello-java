@@ -174,15 +174,19 @@ class Greeting
         // }
 
         // 条件分岐(if-elseif)
-        int age = 0;
+        // int age = 0;
 
-        if (age >= 20) {
-            System.out.println("adult");
-        } else if (age == 0) {
-            System.out.println("baby");
-        } else {
-            System.out.println("child");
+        // if (age >= 20) {
+        //     System.out.println("adult");
+        // } else if (age == 0) {
+        //     System.out.println("baby");
+        // } else {
+        //     System.out.println("child");
+        // }
+
+        // for文
+        for (int i = 0; i <= 4; i++) {
+            System.out.println(i);
         }
-
     }
 }
