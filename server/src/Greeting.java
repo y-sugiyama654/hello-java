@@ -185,7 +185,13 @@ class Greeting
         // }
 
         // for文
+        // for (int i = 0; i <= 4; i++) {
+        //     System.out.println(i);
+        // }
+
+        // for文(break)
         for (int i = 0; i <= 4; i++) {
+            if (i == 3) { break; }
             System.out.println(i);
         }
     }
