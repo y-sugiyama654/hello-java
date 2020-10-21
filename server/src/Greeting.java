@@ -202,10 +202,19 @@ class Greeting
         // }
 
         // for文のネスト
-        for (int i = 0; i <= 2; i++) {
-            for (int j = 0; j <= 2; j++) {
-                System.out.println(i + "-" + j);
-            }
+        // for (int i = 0; i <= 2; i++) {
+        //     for (int j = 0; j <= 2; j++) {
+        //         System.out.println(i + "-" + j);
+        //     }
+        // }
+
+        // for(配列)
+        int arr[] = {2,4,6,8,10};
+        int sum = 0;
+
+        for (int i = 0; i <= 4; i++) {
+            sum += arr[i];
         }
+        System.out.println(sum);
     }
 }
